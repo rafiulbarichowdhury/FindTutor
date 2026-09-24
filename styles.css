@@ -1,0 +1,17 @@
+/* FindTutor theme */
+:root{--bg:#0b1020;--bg-soft:#0f1630;--card:#121a3a;--text:#e9eefb;--muted:#aab4cf;--border:#263056;--primary:#6aa7ff;--success:#2ad38b;--error:#ff6b6b;}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif}
+a{color:var(--primary);text-decoration:none}
+.container{max-width:1080px;margin:20px auto;padding:0 16px}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:16px 0;border-bottom:1px solid var(--border)}
+.btn{display:inline-block;margin-left:8px;padding:8px 14px;border:1px solid var(--primary);border-radius:10px;color:var(--primary)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:20px;margin-top:16px}
+label{display:block;margin-top:10px;color:var(--muted)}
+input,select,textarea{width:100%;padding:10px;margin-top:6px;border-radius:10px;border:1px solid var(--border);background:var(--bg-soft);color:var(--text)}
+table{width:100%;border-collapse:collapse;margin-top:12px;background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden}
+th,td{padding:10px;border-bottom:1px solid var(--border)} th{color:var(--muted)}
+.error{background:#3a1216;border:1px solid #a43c3c;padding:10px;border-radius:10px;margin-top:10px}
+.success{background:#143a26;border:1px solid #1b8d60;padding:10px;border-radius:10px;margin-top:10px}
+.notice{background:#1b2848;border:1px solid #3a4f86;padding:10px;border-radius:10px;margin-top:10px}
+.badge{display:inline-block;padding:4px 10px;border-radius:999px;background:rgba(106,167,255,.15);border:1px solid var(--border)}
+.center{text-align:center}
